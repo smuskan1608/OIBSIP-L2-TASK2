@@ -1,0 +1,76 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light Gray */
+    color: #495057; /* Dark Gray */
+}
+
+header {
+    background-color: #343a40; /* Dark Gray */
+    color: #ffffff; /* White */
+    text-align: center;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #212529; /* Dark Gray */
+    padding: 0.5em 0;
+}
+
+nav a {
+    color: #ffffff; /* White */
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffc107; /* Yellow */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+main:hover {
+    transform: scale(1.02);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    color: #007bff; /* Blue */
+}
+
+p {
+    line-height: 1.6;
+    color: #495057; /* Dark Gray */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}
